@@ -1,7 +1,7 @@
 {
   "jstack": {
     "version": "1.4.0",
-    "checksum": "sha256:cd37982ef760c301b61e79803ec78ec4b54314e24e145b0f6a31f54d1261635f"
+    "checksum": "sha256:8214287d7e15b763ca42865d0a31e842f61721ece9c445e8042c422d43cc9d25"
   },
   "owners": {
     "owner": "fund-flow-admin"
