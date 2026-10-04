@@ -1,0 +1,16 @@
+{
+  "area": "contacts",
+  "rules": [
+    {
+      "id": "CONTACT-004",
+      "status": "planned",
+      "statement": "Contacts are listed in name order",
+      "examples": [
+        {
+          "id": "E1",
+          "text": "contacts sort by last name"
+        }
+      ]
+    }
+  ]
+}

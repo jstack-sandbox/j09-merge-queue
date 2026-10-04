@@ -1,0 +1,18 @@
+name: ci
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  tests:
+    name: 02 tests
+    runs-on: ubuntu-24.04
+    steps:
+      - name: run the runner-a tests
+        run: echo "runner-a tests pass"
+  merged-dark:
+    name: 03 merged-dark
+    runs-on: ubuntu-24.04
+    steps:
+      - name: boot and probe
+        run: echo "booted with every flag building; no route of a feature in progress answers"

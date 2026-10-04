@@ -1,0 +1,65 @@
+{
+  "jstack": {
+    "version": "1.4.0",
+    "checksum": "sha256:cd37982ef760c301b61e79803ec78ec4b54314e24e145b0f6a31f54d1261635f"
+  },
+  "owners": {
+    "owner": "fund-flow-admin"
+  },
+  "profiles": {
+    "lang-a": {},
+    "runner-a": {},
+    "queue-a": {}
+  },
+  "merge_queue": {
+    "app": "mergify"
+  },
+  "merged_dark_check": "03 merged-dark",
+  "required_checks": {
+    "jstack/risk": {
+      "producer": {
+        "app": "jstack"
+      }
+    },
+    "jstack/queue": {
+      "producer": {
+        "app": "jstack"
+      }
+    },
+    "jstack/description": {
+      "producer": {
+        "app": "jstack"
+      }
+    },
+    "02 tests": {
+      "producer": {
+        "workflow": ".github/workflows/ci.yml",
+        "job": "tests"
+      }
+    },
+    "03 merged-dark": {
+      "producer": {
+        "workflow": ".github/workflows/ci.yml",
+        "job": "merged-dark"
+      }
+    }
+  },
+  "areas": {
+    "database": {
+      "risky": true,
+      "detector": "database"
+    },
+    "billing": {
+      "risky": true,
+      "detector": "billing"
+    },
+    "access": {
+      "risky": true,
+      "detector": "access"
+    },
+    "sending": {
+      "risky": true,
+      "detector": "sending"
+    }
+  }
+}
