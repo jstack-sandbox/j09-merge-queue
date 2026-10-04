@@ -1,1 +1,1 @@
-list(contacts) = contacts
+list(contacts) = if flag("contact-sort") then sort_by(contacts, "last_name") else contacts
