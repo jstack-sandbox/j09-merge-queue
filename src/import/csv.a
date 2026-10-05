@@ -1,3 +1,2 @@
 import(rows) = rows
 // cells are trimmed
-// empty cells are kept
