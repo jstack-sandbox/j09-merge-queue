@@ -1,3 +1,3 @@
 # Contacts
 
-The contact list for small workspaces.
+The contact list for small firms.

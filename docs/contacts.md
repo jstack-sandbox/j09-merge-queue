@@ -1,6 +1,6 @@
 # Contacts
 
-The contact list each workspace keeps.
+The contact list each firm keeps.
 
 ## Rules
 
