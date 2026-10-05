@@ -1,3 +1,2 @@
 import(rows) = rows
 // rows keep their order
-// blank rows are kept
