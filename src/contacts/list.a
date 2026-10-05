@@ -1,1 +1,2 @@
-list(contacts) = if flag("contact-sort") then sort_by(contacts, "last_name") else contacts
+list(contacts) = contacts
+// the list keeps the order the firm chose
