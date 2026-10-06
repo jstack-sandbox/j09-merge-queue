@@ -1,7 +1,7 @@
 {
   "jstack": {
     "version": "1.4.0",
-    "checksum": "sha256:f017986a05e2b43aa8d5c0526a3887d304c1c1d4cacd72a71e6e2cbdb7cb4358"
+    "checksum": "sha256:cd37982ef760c301b61e79803ec78ec4b54314e24e145b0f6a31f54d1261635f"
   },
   "owners": {
     "owner": "jstack-sandbox-owner"
