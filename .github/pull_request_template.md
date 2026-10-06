@@ -12,7 +12,6 @@
 
 **What it does:** <one line per behaviour this pull request adds, changes or removes, grouped under short italic headings when there are several: "When X, it does Y" or "It refuses X, and says why". Every test it adds or changes, and every behaviour its code changes, is one line here, so this list is the whole change in plain words. A docs-only change lists the rules it adds or changes the same way.>
 
-**Checks:** <"all green", or which check is red and why that is expected, e.g. "tests are red on purpose: they were written before the code that will pass them">
 
 **What could go wrong:** <what breaks, or what gets frozen, if a line above is wrong, and which line most needs a second look>
 
