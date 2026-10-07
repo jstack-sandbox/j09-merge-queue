@@ -2,8 +2,6 @@
 
 # For humans
 <!-- For the owner, reading on a phone, who should not need to open the code. One short sentence per line, everyday words a non-coder follows. No file paths, code names, check or gate numbers, rule or decision IDs, skill names, or words like contract, lock, stub or assertion; a term that cannot be avoided is explained in the same sentence. Rule IDs go only on the Look at line. Placeholders left here are requested changes. -->
-🟢 **Two-way door** or 🔴 **One-way door** <keep one: two-way when undoing the merge undoes it, one-way when it does not; always one-way: a database migration, deleting or rewriting data, a workflow or other change to the pipeline, a release, a change to who can see or do what, and anything sent outside, such as a message, a payment or a publish> · **Radius <the one step it reaches, at merge and once it runs, in these words: ① docs or tests only (nothing runs differently), ② developer machines and agent sessions, ③ pipeline: CI, checks, gates (in jstack, every product on its next update), ④ outside world: users, money, messages, data>** · <why: what breaks, or what gets frozen, if a line below is wrong, and which line most needs a second look>
-
 **The problem:** <what was wrong or missing, in everyday terms>
 
 **The fix:** <what this pull request does about it, as an outcome, not a mechanism>
