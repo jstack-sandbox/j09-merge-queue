@@ -3,7 +3,7 @@
   "rules": [
     {
       "id": "CONTACT-004",
-      "status": "active",
+      "status": "planned",
       "statement": "Contacts are listed in name order",
       "examples": [
         {
