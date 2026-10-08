@@ -4,7 +4,7 @@
     {
       "id": "CONTACT-004",
       "status": "active",
-      "statement": "Contacts are listed in name order",
+      "statement": "Contacts are listed in last-name order",
       "examples": [
         {
           "id": "E1",
