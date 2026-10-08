@@ -2,8 +2,6 @@
 
 # For humans
 <!-- For the owner, reading on a phone, who should not need to open the code. One short sentence per line, everyday words a non-coder follows. No file paths, code names, check or gate numbers, rule or decision IDs, skill names, or words like contract, lock, stub or assertion; a term that cannot be avoided is explained in the same sentence. Rule IDs go only on the Look at line. Placeholders left here are requested changes. -->
-🟢 **Two-way door** or 🔴 **One-way door** <keep one: two-way when undoing the merge undoes it, one-way when it does not; always one-way: a database migration, deleting or rewriting data, a workflow or other change to the pipeline, a release, a change to who can see or do what, and anything sent outside, such as a message, a payment or a publish> · <keep exactly one radius step, the widest the change reaches at merge and once it runs, copied as written: **▰▱▱▱ Docs or tests only**, where nothing runs differently; **▰▰▱▱ Developer machines and agent sessions**; **▰▰▰▱ Pipeline: CI, checks, gates**, in jstack every product on its next update; **▰▰▰▰ Outside world: users, money, messages, data**> · <why: what breaks, or what gets frozen, if a line below is wrong, and which line most needs a second look>
-
 **The problem:** <what was wrong or missing, in everyday terms>
 
 **The fix:** <what this pull request does about it, as an outcome, not a mechanism>
@@ -14,7 +12,6 @@
 
 **What it does:** <one line per behaviour this pull request adds, changes or removes, grouped under short italic headings when there are several: "When X, it does Y" or "It refuses X, and says why". Every test it adds or changes, and every behaviour its code changes, is one line here, so this list is the whole change in plain words. A docs-only change lists the rules it adds or changes the same way.>
 
-**Checks:** <"all green", or which check is red and why that is expected, e.g. "tests are red on purpose: they were written before the code that will pass them">
 
 **What could go wrong:** <what breaks, or what gets frozen, if a line above is wrong, and which line most needs a second look>
 
