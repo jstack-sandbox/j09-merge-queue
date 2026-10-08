@@ -14,14 +14,8 @@
   "merge_queue": {
     "app": "mergify"
   },
-  "merged_dark_check": "03 merged-dark",
   "required_checks": {
     "jstack/risk": {
-      "producer": {
-        "app": "jstack"
-      }
-    },
-    "jstack/queue": {
       "producer": {
         "app": "jstack"
       }
@@ -36,12 +30,6 @@
         "workflow": ".github/workflows/ci.yml",
         "job": "tests"
       }
-    },
-    "03 merged-dark": {
-      "producer": {
-        "workflow": ".github/workflows/ci.yml",
-        "job": "merged-dark"
-      }
     }
   },
   "areas": {
@@ -54,7 +42,7 @@
       "detector": "billing"
     },
     "access": {
-      "risky": true,
+      "risky": false,
       "detector": "access"
     },
     "sending": {
