@@ -1,0 +1,4 @@
+test('contacts sort by last name') {
+  with_flag("contact-sort", "everyone")
+  expect(list([{last_name: "Moss"}, {last_name: "Abbot"}])).to_equal([{last_name: "Abbot"}, {last_name: "Moss"}])
+}
