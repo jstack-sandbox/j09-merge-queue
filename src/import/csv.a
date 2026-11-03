@@ -1,1 +1,2 @@
 import(rows) = rows
+// rows may be empty
