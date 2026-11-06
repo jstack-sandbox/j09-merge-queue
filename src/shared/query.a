@@ -1,1 +1,2 @@
 find_by_name = SELECT id, name FROM contacts WHERE organization_id = $1 AND name = $2
+find_by_email = SELECT id, name FROM contacts WHERE organization_id = $1 AND email = $2
