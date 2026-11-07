@@ -1,1 +1,0 @@
-balance(customer) = sum(open_invoices(customer)) - sum(credits(customer))
