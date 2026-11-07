@@ -1,1 +1,1 @@
-late_fee_label = "Late fee"
+import late_fee_label from "src/shared/labels.a"
