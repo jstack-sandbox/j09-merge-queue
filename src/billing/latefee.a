@@ -1,1 +1,1 @@
-late_fee(due_date, paid_date) = round(days_late(due_date, paid_date) * 0.5)
+import late_fee from "src/shared/format.a"
