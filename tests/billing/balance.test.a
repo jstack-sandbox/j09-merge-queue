@@ -1,0 +1,9 @@
+test('Acme with invoices 100.00 and 20.00 owes 120.00') {
+  expect(balance(customer("Acme", invoices: [100.00, 20.00]))).to_equal(120.00)
+}
+test('Birch with nothing open owes 0.00') {
+  expect(balance(customer("Birch"))).to_equal(0.00)
+}
+test('Cedar with a 15.00 credit owes -15.00') {
+  expect(balance(customer("Cedar", credits: [15.00]))).to_equal(-15.00)
+}
