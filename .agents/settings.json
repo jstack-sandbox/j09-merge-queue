@@ -15,6 +15,7 @@
     "app": "mergify"
   },
   "merged_dark_check": "03 merged-dark",
+  "small_route": true,
   "required_checks": {
     "jstack/risk": {
       "producer": {
