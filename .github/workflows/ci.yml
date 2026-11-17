@@ -1,3 +1,4 @@
+# runs on every pull request
 name: ci
 on:
   pull_request:
